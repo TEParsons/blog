@@ -160,3 +160,10 @@ ol li::marker {
     font-size: 1.5rem;
     line-height: 1rem;
 }
+
+/** Images **/
+img {
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
