@@ -7,3 +7,15 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.img-super-right {
+    float: right;
+    width: 50%;
+    margin: 1rem -20% 1rem 1rem;
+}
+
+.img-super-left {
+    float: left;
+    width: 50%;
+    margin: 1rem 1rem 1rem -20%;
+}
